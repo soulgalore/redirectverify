@@ -1,0 +1,42 @@
+{
+  "name": "redirectverify",
+  "version": "0.0.1",
+  "bin": "./bin/redirect.js",
+  "description": "Verify that a list of redirects ends up on the right URL",
+  "keywords": [
+    "redirect",
+    "verification"
+  ],
+  "homepage": "",
+  "license": "",
+  "author": {
+    "name": "Peter Hedenskog",
+    "url": "http://www.peterhedenskog.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oulgalore/redirectverify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soulgalore/redirectverify/issues"
+  },
+  "files": ["bin", "lib"],
+  "engines": {
+    "node": ">=0.8.1"
+  },
+  "devDependencies": {
+    "jshint": "2.5.3"
+  },
+  "main": "./lib/redirect.js",
+  "dependencies": {
+    "async": "0.9.x",
+    "fs-extra": "0.9.x",
+    "minimist": "1.1.x",
+    "request":"2.48.x"
+  },
+  "scripts": {
+    "lint": "jshint .",
+    "test": "npm run lint",
+    "travis": "npm run lint"
+  }
+}
