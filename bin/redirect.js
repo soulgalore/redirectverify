@@ -39,5 +39,5 @@ var VerifyRedirect = require('../lib/redirect'),
     process.exit(255);
   }
 
-var r = new VerifyRedirect(argv.file, argv.domain, argv.parallel);
+var r = new VerifyRedirect(argv.file, argv.starturl, argv.parallel);
 r.verify();
