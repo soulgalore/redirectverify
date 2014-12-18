@@ -4,7 +4,7 @@ Here are a simple script to bulk verify a lot of redirect.
 
 Install
 =============
-1. Clone this directory
+1. Clone this directory <code>git clone git@github.com:soulgalore/redirectverify.git</code>
 2. Go into the cloned dir
 3. Run <code>npm install</code>
 
