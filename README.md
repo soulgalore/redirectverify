@@ -27,7 +27,7 @@ How it works
 The script will test each URL in the file, access it, test that it is redirected (only one redirect per URL) and that it ends on the end point URL (the second URL on each row on the file). If we get a 400/500 error that will be reported.
 
 
-The script will store a file named after the domain you test with all the errors. The file is a ,-csv file so you can easily import it in Excel and check which URL:s that failed and why.
+The script will store two files named after the domain you test, one with failing urls and one with working. The files are ,-csv file so you can easily import it in Excel and check which URL:s that failed and why.
 
 
 
